@@ -12,7 +12,7 @@ button {
 
 body {
   font-family: Inter, sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   background-image: radial-gradient(ellipse, #385300, #212900);
 }
 
@@ -27,6 +27,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
